@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-image: url(bg.png);
+    background-repeat: url(bg.png);
+}
+
+.navbar-brand {
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+#scrape {
+    font-family: 'Noto Serif', serif;
+    float:right;
+    margin-top:4%;
+}
+
+.newStyle {
+    font-family: 'Noto Serif', serif;
+    color:white !important;
+    background-color: #e13c14 !important;
+}
+
+.delete {
+    float: right;
+    margin-left: 2%;
+    background-color: rgba(0, 0, 0, 0.658) !important;
+    border-color: rgba(0, 0, 0, 0.658) !important;
+    
+}
+.addNote {
+    font-family: 'Noto Serif', serif;
+    color:white !important;
+    background-color: #e13c14 !important;
+    border-color: #e13c14 !important;
+    float: right;
+    margin-left: 2%;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Noto Serif', serif;
+}
+
+h3 {
+    font-family: 'Noto Serif', serif;
+}
+
+.jumbotron {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 5%;
+    background-image: url(jumbo2.jpeg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align:center;
+    height:40%;
+    padding:10%;
+}
+
+.newsIcon {
+    -webkit-filter: drop-shadow(0px 3px 10px rgba(0,0,0,.8));
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8));
+    width:15%;
+    float:left;
+    position: relative;
+}
+
+

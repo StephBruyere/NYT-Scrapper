@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>NYT Scrapper</title>
+   <!-- Google Fonts-->
+ <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
+   <!-- jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <!-- Bootstrap JS -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Initialize Bootstrap functionality -->
+ <!-- Mobile Responsive Viewport info-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- jQuery UI links -->
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Handlebars-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <!-- Native CSS-->
+		<link rel="stylesheet" href="/assets/style.css" type="text/css" />
+	</head>
+  
+	<body>
+    <!--Nav Bar-->
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#alignment-example" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/">NEW YORK TIMES SCRAPER</a>
+</div>
+
+<!-- COLLAPSIBLE NAVBAR -->
+<div class="collapse navbar-collapse" id="alignment-example">
+
+<!-- Links -->
+<ul class="nav navbar-nav">
+<li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
+<li class="commit"><a href="/saved">Saved Articles</a></li>
+<li><button type="button" class="btn btn-danger" id="scrape">SCRAPE NEW ARTICLES!</button></li>
+</ul>
+</nav>
+		{{{ body }}}
+	</body>
+    <footer>
+      <script src="app.js"></script>
+      
+      </footer>
+</html>
+
