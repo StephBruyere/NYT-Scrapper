@@ -23,7 +23,7 @@ app.use(express.static("public"));
 
 //mongoose
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://127.0.0.1:27017", {
+mongoose.connect("mongodb://heroku_x3s4m8db:1d00vkd1ja4839t59mg6821sr@ds115866.mlab.com:15866/heroku_x3s4m8db", {
     useMongoClient: true
 });
 
