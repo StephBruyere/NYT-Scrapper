@@ -1,33 +1,14 @@
 ## New York Times Scraper
 
-### Markdown
+A web application that scrapes the New York Times website for new articles, allow the user to save these articles, and leave comments. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### This application was built utilizing technologies such as:
+Express
+Node
+Cheerio
+Handlebar
+MongoDB
+Mongoose
+Body-Parser
+Request
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StephBruyere/NYT-Scrapper/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
