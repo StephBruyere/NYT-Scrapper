@@ -1,4 +1,3 @@
-//Scrape
 $("#scrape").on("click", function() {
     $.ajax({
         method: "GET",

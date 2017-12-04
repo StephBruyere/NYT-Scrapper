@@ -12,6 +12,7 @@ var NoteSchema = new Schema({
     }
 });
 
+console.log(NoteSchema)
 var Note = mongoose.model("Note", NoteSchema);
 console.log("Notes Connected!")
 
