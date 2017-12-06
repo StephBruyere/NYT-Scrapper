@@ -41,6 +41,7 @@ $(".saveNote").on("click", function() {
           }).done(function(data) {
               $("#noteText" + newID).val("");
               window.location = "/saved"
+              console.log(newID);
           });
     });
 
