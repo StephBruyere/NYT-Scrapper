@@ -16,21 +16,6 @@
                         <p> {{this.sub}}</p>
                         <a href={{this.link}} target="_blank">{{this.link}}</a>
                         <br><br>
-                 {{#if this.notes}}
-                    {{#each this.notes}}
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <p> {{this.body}}</p>
-                                <button type="button" class="btn btn-danger deleteNote" data-note-id={{this._id}} data-article-id={{this.article}}>X</button>
-                            </div>
-                        </div>
-                    {{/each}}
-                {{else}}
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h4>No notes for this article yet.</h4>
-                        </div>
-                    </div>
                         <button type="button" class="btn addNote" data-toggle="modal" data-target="#noteModal{{this._id}}" data-id={{this._id}}>Add Comments</button>
                         <button type="button" class="btn btn-danger delete" data-id={{this._id}}>Delete</button>
                     </div>

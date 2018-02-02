@@ -9,7 +9,7 @@ var Note = require("./models/Note.js");
 var Article = require("./models/Article.js");
 var path = require("path");
 
-var PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 3000;
 var app = express();
 
 //body-parser
@@ -191,4 +191,3 @@ app.delete("/notes/delete/:note_id/:article_id", function (req, res) {
 app.listen(PORT, function () {
     console.log("App running on port " + PORT)
 });
-
