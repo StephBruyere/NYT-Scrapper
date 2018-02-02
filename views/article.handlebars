@@ -6,6 +6,7 @@
     <a href="{{article.link}}"><h2>{{article.title}}</h2></a>
     <p>{{article.summary}}</p>
 
+<<<<<<< HEAD
     <form action="{{article.id}}/comment/create" method="POST">
         <input type="text" name= "user" placeholder="Name" />
         <br/>
@@ -23,6 +24,23 @@
           {{this.body}}
           <br/>
           <form action="comment/{{this.id}}/delete" method="POST">
+=======
+    <form action="{{article.id}}/notes/create" method="POST">
+        <input type="text" name= "user" placeholder="Name" />
+        <br/>
+        <textarea name="body" rows="2" placeholder="Write a note!"></textarea>
+        <br/>
+        <input type="submit" class="btn btn-default" value="Post note" />
+    </form>
+    
+    {{#if article.note}}
+    <ul>
+      {{#each article.note}}
+        <li>
+          {{this.body}}
+          <br/>
+          <form action="notes/{{this.id}}/delete" method="POST">
+>>>>>>> a541b23de2637d2b35aac5ca0e9392265014dadd
             <p>{{article.id}}</p>
             <input type="submit" class="btn btn-danger" data-id="{{this.id}}" value="Delete">
           </form>
